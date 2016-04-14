@@ -28,5 +28,5 @@ elif [ "$TRAVIS_BRANCH" != "$BRANCH" ]; then
   echo "TRAVIS_BRANCH: '$TRAVIS_BRANCH' BRANCH: '$BRANCH'"
 else
   echo "Start releasing..."
-  ./release.sh
+  # do whatever i want
 fi
