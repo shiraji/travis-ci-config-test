@@ -1,2 +1,6 @@
 # travis-ci-config-test
-For modifying travis ci script
+
+* Copy .travis.yml and .travis/after_success.sh
+* `chmod a+x .travis/after_success.sh`
+* Add command below `# do whatever i want` on after_success.sh
+* Change build command `- echo "FOO"` on .travis.yml
