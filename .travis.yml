@@ -1,0 +1,17 @@
+language: java
+env:
+  matrix:
+  - IDEA_VERSION=IC-15.0.4
+  - IDEA_VERSION=LATEST-EAP-SNAPSHOT
+jdk:
+    - oraclejdk7
+script:
+    - echo "FOO"
+notifications:
+  email: false
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.gradle
+after_success:
+  - ./after_success.sh
