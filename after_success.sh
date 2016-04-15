@@ -1,10 +1,10 @@
 #!/bin/bash
-# 
+#
 # Travis ci script for releasing gradle project
 # Adapted from http://benlimmer.com/2013/12/26/automatically-publish-javadoc-to-gh-pages-with-travis-ci/
 
 # Change this
-REPO=""
+REPO="travis-ci-config-test"
 
 # Change if necessary
 USER="shiraji"
@@ -18,7 +18,7 @@ if [ "$TRAVIS_REPO_SLUG" != "$USER/$REPO" ]; then
   # Check repo
   echo "TRAVIS_REPO_SLUG: '$TRAVIS_REPO_SLUG' USER/REPO: '$USER/$REPO'"
 elif [ "$TRAVIS_JDK_VERSION" != "$JDK" ]; then
-  # Check JDK 
+  # Check JDK
   echo "TRAVIS_JDK_VERSION: '$TRAVIS_JDK_VERSION' JDK: '$JDK"
 elif [ "$TRAVIS_PULL_REQUEST" != "false" ]; then
   # Check how to run this script
