@@ -29,6 +29,8 @@ elif [ "$TRAVIS_BRANCH" != "$BRANCH" ]; then
 else
   echo "Start releasing..."
   touch foo.txt
+  git config user.name "Travis CI"
+  git config user.email "isogai.shiraji@gmail.com"
   git add .
   git commit -m "[skip ci] prepare next development"
   git push origin master
