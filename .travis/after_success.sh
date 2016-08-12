@@ -33,6 +33,6 @@ else
   git config user.email "isogai.shiraji@gmail.com"
   git add .
   git commit -m "[skip ci] prepare next development"
-  git push "https://${TOKEN}@github.com/$USER/$REPO.git"
+  git push "https://${TOKEN}@github.com/$USER/$REPO.git" master:master
   # do whatever i want
 fi
