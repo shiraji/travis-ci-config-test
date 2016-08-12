@@ -28,7 +28,7 @@ elif [ "$TRAVIS_BRANCH" != "$BRANCH" ]; then
   echo "TRAVIS_BRANCH: '$TRAVIS_BRANCH' BRANCH: '$BRANCH'"
 else
   echo "Start releasing..."
-  git init
+  git checkout master
   git config user.name "Travis CI"
   git config user.email "isogai.shiraji@gmail.com"
   git rm .travis/release
