@@ -28,5 +28,9 @@ elif [ "$TRAVIS_BRANCH" != "$BRANCH" ]; then
   echo "TRAVIS_BRANCH: '$TRAVIS_BRANCH' BRANCH: '$BRANCH'"
 else
   echo "Start releasing..."
+  touch foo.txt
+  git add .
+  git commit -m "[skip ci] prepare next development"
+  git push origin master
   # do whatever i want
 fi
