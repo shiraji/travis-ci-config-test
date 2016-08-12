@@ -3,8 +3,6 @@ env:
   matrix:
   - IDEA_VERSION=IC-15.0.4
   - IDEA_VERSION=LATEST-EAP-SNAPSHOT
-  global:
-    secure: JQktHfuc0ueMyM5D0KlG7JuplCickziGpA3be5ubjeKL7932H9AO9TUlFT2pdEYcbLGmWp6YnihlFfGGFP6qu/Qb/GDbvYQXhrOIY7ri/ugAkubi6fEqAR7J9JmdDfvVZsdRQiBXqWv3bbjqUVQcdB5ROAZUR6EGl6lMgBRUgr0fEiNne25fQJfn7K81sHag5OAJCCTN6rmlDabide2/leQvCiu5ynAkhf+0g9SaQYsDUyZ/sR09cHJXxUtdaeknJLwcN4GTjj62oWRFEgxqv1O8NeQ5BC5Ln/csAI1x2L0PIWpORRPLxticRQ/DnRnVu4rKyo1dZrcCDppa2QB+lSTAip51osYM+jV5nifIHQzTy97w5aK3Kovl0EvFjLHnzqSp5fnaIQhdgOnp6fnKRqeNOMUKmy5bb4uchpw+ZjuHxAWnZZ5ae/QOZMIvqW8LF1hp5ZEv3xG4vYVAuzkbLuObzjMj1xp8SIbzJDaFHt3uKfsD+s14k+9zvfW7+2Veovm0MrU4nhjYc8R0XfR262Y3foeN0JBZMv9aeObqd4+FaRHszvxY7f4Qk8eITOd+JytB9yWS+9rXky7kwEa7PkFPaOuQCCs0JYnTl3YnWmAm3X+j2oe/nQa7xLgE+D2SWhZnnUCgmL+1Ct3gbCZE5YN5UgsiBgGmD6mh1OA3iIA=
 jdk:
 - oraclejdk7
 script:
