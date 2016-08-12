@@ -31,7 +31,7 @@ else
   rm .travis/release
   git config user.name "Travis CI"
   git config user.email "isogai.shiraji@gmail.com"
-  git add .
+  git add -A .
   git commit -m "[skip ci] prepare next development"
   git push "https://${TOKEN}@github.com/$USER/$REPO.git" master:master
   # do whatever i want
