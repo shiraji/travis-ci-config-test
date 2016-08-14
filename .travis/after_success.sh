@@ -34,6 +34,6 @@ else
   git rm .travis/release
   git add -A .
   git commit -m "[skip ci] prepare next development"
-  git push "https://${TOKEN}@github.com/$USER/$REPO.git" master:master
+  git push origin "git@github.com:shiraji/travis-ci-config-test.git" master
   # do whatever i want
 fi
