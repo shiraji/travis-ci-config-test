@@ -34,6 +34,6 @@ else
   git rm .travis/release
   # git add -A .
   git commit -m "[skip ci] prepare next development"
-  git push -f git@github.com:shiraji/travis-ci-config-test.git master
+  git push git@github.com:shiraji/travis-ci-config-test.git master
   # do whatever i want
 fi
