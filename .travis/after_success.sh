@@ -32,7 +32,7 @@ else
   git config user.name "Travis CI"
   git config user.email "isogai.shiraji@gmail.com"
   git rm .travis/release
-  git add -A .
+  # git add -A .
   git commit -m "[skip ci] prepare next development"
   git push origin "git@github.com:shiraji/travis-ci-config-test.git" master
   # do whatever i want
