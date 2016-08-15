@@ -1,7 +1,6 @@
 language: java
 env:
   matrix:
-  - IDEA_VERSION=IC-15.0.4
   - IDEA_VERSION=LATEST-EAP-SNAPSHOT
 jdk:
 - oraclejdk7
