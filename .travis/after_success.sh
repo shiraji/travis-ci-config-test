@@ -31,9 +31,9 @@ else
   git checkout master
   git config user.name "Travis CI"
   git config user.email "isogai.shiraji@gmail.com"
+  git tag `cat VERSION`
+  git push git@github.com:${USER}/${REPO}.git `cat VERSION`
   git rm .travis/release
-  # git add -A .
   git commit -m "[skip ci] prepare next development"
-  git push git@github.com:shiraji/travis-ci-config-test.git master
-  # do whatever i want
+  git push git@github.com:${USER}/${REPO}.git $BRANCH
 fi
