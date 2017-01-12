@@ -15,4 +15,5 @@ cache:
 after_success:
 - .travis/after_success.sh
 before_install:
-- test $TRAVIS_PULL_REQUEST = false && .travis/before_install.sh
+- test $TRAVIS_PULL_REQUEST = false \
+  && .travis/before_install.sh
