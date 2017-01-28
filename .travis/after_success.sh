@@ -14,6 +14,8 @@ BRANCH="master"
 # Not handling errors
 set -e
 
+echo $TOKEN
+
 if [ "$TRAVIS_REPO_SLUG" != "$USER/$REPO" ]; then
   # Check repo
   echo "TRAVIS_REPO_SLUG: '$TRAVIS_REPO_SLUG' USER/REPO: '$USER/$REPO'"

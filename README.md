@@ -6,3 +6,4 @@
 * Change build command `- echo "FOO"` on .travis.yml
 * `travis encrypt-file SSH-FILE --add` to add travis.enc
 * Change .travis.yml's SSH-FILE to `.travis.ssh`
+* secure code is TOKEN=FOO
